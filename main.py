@@ -36,6 +36,11 @@
 # 11 is the Ace.
 # cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 import random
+from art import logo
+
+
+def clear_console():
+    print("\033c", end="")
 
 
 def deal_card():
@@ -83,6 +88,7 @@ def compare(user_score, computer_score):
 
 
 def play_game():
+    print(logo)
     # Hint 5: Deal the user and computer 2 cards each using deal_card() and append().
     user_cards = []
     computer_cards = []
@@ -121,7 +127,6 @@ def play_game():
     print(compare(user_score, computer_score))
 
     # Hint 14: Ask the user if they want to restart the game. If they answer yes, clear the console and start a new game of blackjack and show the logo from art.py.
-    while (
-        input("Do you want to play another game of Blackjack? Type 'y' or 'n': ") == "y"
-    ):
+    while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
+        clear_console()
         play_game()
