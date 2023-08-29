@@ -1,4 +1,4 @@
-# Black Jack
+# Blackjack
 
 Blackjack is the most popular casino game in the world, but that doesn't mean we can't play a few hands in the terminal.
 
