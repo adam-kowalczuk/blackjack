@@ -25,7 +25,8 @@ def calculate_score(cards):
     # Hint 8: Inside calculate_score() check for an 11 (ace). If the score is already over 21, remove the 11 and replace it with a 1. You might need to look up append() and remove().
 
     if 11 in cards and sum(cards) > 21:
-        cards.remove(11).append(1)
+        cards.remove(11)
+        cards.append(1)
 
     return sum(cards)
 
