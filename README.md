@@ -1,12 +1,17 @@
 # Black Jack
 
-Blackjack is the most popular casino game in the world, but that doesn't mean we can't play a few hands in the terminal? Can you hit 21 without going over?.
+Blackjack is the most popular casino game in the world, but that doesn't mean we can't play a few hands in the terminal.
+
+Some things to note:
+
+- A score of '0' means 'Blackjack' (a hand of two cards that equals 21)
+- There is no option to split
 
 This project was created for Dr. Angela Yu's [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/).
 
 ## Final Product
 
-!["Hit or stand?"](https://github.com/adam-kowalczuk/caesar-cipher/blob/main/docs/demo.gif?raw=true)
+!["Hit or stand?"](https://github.com/adam-kowalczuk/blackjack/blob/main/docs/demo.gif?raw=true)
 
 ## Getting Started
 
